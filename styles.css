@@ -68,17 +68,19 @@
   margin-left: 5%;
 }
 
+
+
 #aligncentert
 {
   text-align: left;
-  margin-left: 36.41%;
+  margin-left: 33%;
  
 }
 #aligncenterb
 {
   text-align: left;
-  margin-left: 33.37%;
- 
+  margin-left: 33%;
+  
 }
 
 .alignright 
@@ -108,11 +110,14 @@
 
 }
 
-
-
 .bottom
 {
   margin-bottom: 2.5%;
 
+}
+
+#hide
+{
+  color: white;
 }
 

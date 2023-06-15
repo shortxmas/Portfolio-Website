@@ -1,6 +1,6 @@
 #headname
 {
-  margin-left: 1%;
+  margin-left: 3%;
   font-size: .8cm;
   color: black;
   text-decoration: none;
@@ -29,7 +29,7 @@
 #dir
 {
   
-  margin-right: 1.5%;
+  margin-right: 3%;
   float:right
   
 }
@@ -46,12 +46,13 @@
 #headerline
 {
   margin-top: 1.25%;
+  margin-bottom: 7%;
   
 }
 
 #footerline
 {
-  margin-top: 46%;
+  margin-top: 12%;
   margin-bottom: 2.5%;
   
   
@@ -73,13 +74,13 @@
 #aligncentert
 {
   text-align: left;
-  margin-left: 33%;
+  margin-left: 31%;
  
 }
 #aligncenterb
 {
   text-align: left;
-  margin-left: 33%;
+  margin-left: 31%;
   
 }
 
@@ -120,4 +121,39 @@
 {
   color: white;
 }
+
+#imgme
+{
+  width: 462px;
+  height: 525;
+  margin-left: 475px;
+  margin-right: auto;
+}
+
+.container 
+{
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 60px;
+ }
+
+ .text
+ {
+  font-family: 'Montserrat', sans-serif;
+
+ }
+
+ #landname
+ {
+  font-size: 1.2cm;
+  
+  font-weight: 1800;
+ }
+
+ #landocc
+ {
+  font-size: .5cm;
+  font-weight: 550;
+ }
 

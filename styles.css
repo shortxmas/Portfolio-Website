@@ -81,6 +81,7 @@ html{
 
 
 
+
 .alignleft 
 {
   text-align: left;
@@ -150,6 +151,18 @@ html{
   margin-right: auto;
 }
 
+#resumebutton
+{
+  height: 50px;
+  width: 50px;
+}
+
+#buttonsp
+{
+  margin-top: 10%;
+  
+}
+
 .container 
 {
   display: grid;
@@ -166,16 +179,18 @@ html{
 
  #landname
  {
-  font-size: 1.2cm;
+  font-size: 2cm;
   color: #608a6f;
   font-weight: 3000;
+  margin-left: 4%;
+  margin-bottom: 10%;
   
  }
 
  #landocc
  {
   font-weight: 500;
-  font-size: .5cm
+  font-size: .4cm
   
  }
   

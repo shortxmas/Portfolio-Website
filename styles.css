@@ -51,73 +51,68 @@
 
 #footerline
 {
-  margin-top: 43%;
-  margin-bottom: 2.25%;
-}
-#phonet
-{
-  font-weight: 700;
-  margin-left: 3%;
-}
-#phoneb
-{
-  margin-left: 3%;
-}
-
-#emailt
-{
-  font-weight: 700;
-  margin-left: 19.88%;
-}
-#emailb
-{
-  margin-left: 16.1%;
-
-}
-
-#socialst
-{
-  font-weight: 700;
-  margin-left: 26.18%;
-}
-
-
-#webinfot
-{
+  margin-top: 46%;
+  margin-bottom: 2.5%;
   
-  margin-left: 22%;
+  
 }
-#webinfob
+
+
+
+
+
+.alignleft 
 {
-  margin-left: 13.83%;
+  text-align: left;
+  float: left;
+  margin-left: 5%;
 }
-#socialsb
+
+#aligncentert
 {
-  margin-left: 18.78%;
+  text-align: left;
+  margin-left: 36.91%;
+ 
+}
+#aligncenterb
+{
+  text-align: left;
+  margin-left: 34%;
+ 
+}
+
+.alignright 
+{
+  text-align: left;
+  float: right;
+  margin-right: 5%;
+ 
+ 
+}
+
+.titles
+{
+  font-weight: 700;
+  font-size: .55cm;
+}
+
+.all
+{
+  font-family: 'Montserrat', Times, serif;
+
 }
 
 .webinfo
 {
-  font-family: 'Montserrat', Times, serif;
-  font-size: .3cm;
+  font-size: .35cm;
+
 }
-.phone
+
+
+
+.bottom
 {
-  font-family: 'Montserrat', Times, serif;
+  margin-bottom: 2.5%;
+
 }
-.email
-{
-  font-family: 'Montserrat', Times, serif;
-}
-.socials
-{
-  font-family: 'Montserrat', Times, serif;
-}
-
-
-
-
-
-
-
 

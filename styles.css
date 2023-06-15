@@ -1,9 +1,10 @@
 #headname
 {
+  text-decoration: none;
   margin-left: 3%;
   font-size: .8cm;
-  color: black;
-  text-decoration: none;
+  color:#608a6f
+  
   
 }
 
@@ -13,7 +14,9 @@
   
   margin-left: .1%;
   font-size: .5cm;
-  color:grey
+  color: black;
+  font-weight: 600;
+  
   
   
 }
@@ -22,6 +25,7 @@
 {
   
   font-family: 'Montserrat', sans-serif;
+  background-color: mintcream;
 
 }
 
@@ -57,6 +61,21 @@
   
   
 }
+
+
+
+body{
+  background-color: white;
+}
+html{
+  background-color:mintcream;
+}
+
+#footer
+{
+  background-color:mintcream
+}
+
 
 
 
@@ -97,6 +116,7 @@
 {
   font-weight: 700;
   font-size: .55cm;
+  color: #608a6f;
 }
 
 .all
@@ -119,7 +139,7 @@
 
 #hide
 {
-  color: white;
+  color: mintcream;
 }
 
 #imgme
@@ -147,13 +167,16 @@
  #landname
  {
   font-size: 1.2cm;
+  color: #608a6f;
+  font-weight: 3000;
   
-  font-weight: 1800;
  }
 
  #landocc
  {
-  font-size: .5cm;
-  font-weight: 550;
+  font-weight: 500;
+  font-size: .5cm
+  
  }
-
+  
+ 

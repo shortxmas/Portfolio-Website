@@ -49,7 +49,7 @@
 
 #headerline
 {
-  margin-top: 1.25%;
+  margin-top: 1.5%;
   margin-bottom: 7%;
   
 }
@@ -145,10 +145,11 @@ html{
 
 #imgme
 {
-  width: 462px;
-  height: 525;
-  margin-left: 475px;
-  margin-right: auto;
+  width: 60%;
+  height: 60%;
+  margin-left: 5%;
+  max-width: 100%
+  
 }
 
 #resumebutton
@@ -163,34 +164,42 @@ html{
   
 }
 
-.container 
-{
-  display: grid;
-  align-items: center; 
-  grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 60px;
- }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
 
- .text
- {
+
+
+.image {
+  flex-basis: 40%
+}
+
+.text {
+  
   font-family: 'Montserrat', sans-serif;
+  margin-left: -12%;
+}
 
- }
+ 
 
  #landname
  {
   font-size: 2cm;
   color: #608a6f;
   font-weight: 3000;
-  margin-left: 4%;
-  margin-bottom: 10%;
+  margin-top: -2%;
+  
   
  }
 
  #landocc
  {
+  margin-top: -10%;
   font-weight: 500;
   font-size: .4cm
+  
   
  }
   

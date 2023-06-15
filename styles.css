@@ -147,22 +147,14 @@ html{
 {
   width: 60%;
   height: 60%;
-  margin-left: 5%;
+  margin-left: 2%;
   max-width: 100%
   
 }
 
-#resumebutton
-{
-  height: 50px;
-  width: 50px;
-}
 
-#buttonsp
-{
-  margin-top: 10%;
-  
-}
+
+
 
 .container {
   display: flex;
@@ -190,17 +182,30 @@ html{
   color: #608a6f;
   font-weight: 3000;
   margin-top: -2%;
+  margin-left: -4%;
   
   
  }
 
  #landocc
  {
-  margin-top: -10%;
+  margin-bottom: 10%;
+  margin-top: -5%;
+  margin-left: -2%;
   font-weight: 500;
   font-size: .4cm
   
   
+  
+  
  }
+ #button
+ {
+  margin-left: -4%;
+ }
+
+ 
+
+ 
   
  

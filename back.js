@@ -16,17 +16,124 @@ document.getElementById("fjs").onclick = function()
 
   document.getElementById("time").innerHTML = full;
 
-  let sleep = "I am most likely sleeping right now!"
-  let sleepwgames = "I am most likely sleeping or playing late night video games!"
+  let sleep = "I am sleeping right now!"
+  let sleepwgames = "I am most likely sleeping or playing late night video games right now!"
   let gogetwork = "I am most likely going to work or getting ready to go to work!!"
   let work = "I am most likely working right now!"
   let leavework = "I am most likely leaving work or getting ready to leave work!"
-  let reg = "I am most likely playing video games or hanging out with friends!"
+  let reg = "I am most likely playing video games, programming or hanging out with friends!"
+  let reg2 = "I am most likely playing video games right now!"
+  let workbreak = "I am most likely on work break right now!"
   
   console.log(time.charAt(0))
   let hour = parseInt(time.charAt(0))
   console.log(time.charAt(time.length-2))
   let poa = time.charAt(time.length-2)
+
+  if(dotw == "Monday")
+  {
+    if(poa == 'P')
+    {
+      if(hour ==12)
+      {
+        document.getElementById("wd").innerHTML = sleep;
+      }
+      else
+      {
+        document.getElementById("wd").innerHTML = reg;
+      }
+
+    }
+    else if(poa == 'A')
+    {
+      if(hour == 12 || hour == 1 || hour == 2)
+      {
+        document.getElementById("wd").innerHTML = sleepwgames;
+      }
+      else
+      {
+        document.getElementById("wd").innerHTML = sleep;
+
+      }
+
+    }
+  }
+
+  if(dotw == "Tuesday")
+  {
+    if(poa == 'P')
+    {
+      if(hour ==12)
+      {
+        document.getElementById("wd").innerHTML = gogetwork;
+      }
+      else if(hour == 10)
+      {
+        document.getElementById("wd").innerHTML = leavework;
+      }
+      else if(hour ==11)
+      {
+        document.getElementById("wd").innerHTML = reg2;
+      }
+      else if(hour ==5)
+      {
+        document.getElementById("wd").innerHTML = workbreak;
+      }
+
+      else
+      {
+        document.getElementById("wd").innerHTML = work;
+      }
+
+    }
+    else if(poa == 'A')
+    {
+      if(hour == 12 || hour == 1 || hour == 2)
+      {
+        document.getElementById("wd").innerHTML = sleepwgames;
+      }
+      else if(hour==11)
+      {
+        document.getElementById("wd").innerHTML = gogetwork;
+      }
+      else
+      {
+        document.getElementById("wd").innerHTML = sleep;
+
+      }
+
+    }
+  }
+
+  if(dotw == "Wednesday")
+  {
+    if(poa == 'P')
+    {
+      if(hour ==12)
+      {
+        document.getElementById("wd").innerHTML = sleep;
+      }
+      else
+      {
+        document.getElementById("wd").innerHTML = reg;
+      }
+
+    }
+    else if(poa == 'A')
+    {
+      if(hour == 12 || hour == 1 || hour == 2)
+      {
+        document.getElementById("wd").innerHTML = sleepwgames;
+      }
+      else
+      {
+        document.getElementById("wd").innerHTML = sleep;
+
+      }
+
+    }
+  }
+
 
   if(dotw == "Thursday")
   {
@@ -42,9 +149,138 @@ document.getElementById("fjs").onclick = function()
       }
 
     }
-
-    if( poa == 'A')
+    else if(poa == 'A')
     {
+      if(hour == 12 || hour == 1 || hour == 2)
+      {
+        document.getElementById("wd").innerHTML = sleepwgames;
+      }
+      else
+      {
+        document.getElementById("wd").innerHTML = sleep;
+
+      }
+
+    }
+  }
+
+  if(dotw == "Friday")
+  {
+    if(poa == 'P')
+    {
+      if(hour ==12)
+      {
+        document.getElementById("wd").innerHTML = sleep;
+      }
+      else
+      {
+        document.getElementById("wd").innerHTML = reg;
+      }
+
+    }
+    else if(poa == 'A')
+    {
+      if(hour == 12 || hour == 1 || hour == 2)
+      {
+        document.getElementById("wd").innerHTML = sleepwgames;
+      }
+      else
+      {
+        document.getElementById("wd").innerHTML = sleep;
+
+      }
+
+    }
+  }
+
+  if(dotw == "Saturday")
+  {
+    if(poa == 'P')
+    {
+      if(hour ==12)
+      {
+        document.getElementById("wd").innerHTML = gogetwork;
+      }
+      else if(hour == 10)
+      {
+        document.getElementById("wd").innerHTML = leavework;
+      }
+      else if(hour ==11)
+      {
+        document.getElementById("wd").innerHTML = reg2;
+      }
+      else if(hour ==5)
+      {
+        document.getElementById("wd").innerHTML = workbreak;
+      }
+
+      else
+      {
+        document.getElementById("wd").innerHTML = work;
+      }
+
+    }
+    else if(poa == 'A')
+    {
+      if(hour == 12 || hour == 1 || hour == 2)
+      {
+        document.getElementById("wd").innerHTML = sleepwgames;
+      }
+      else if(hour==11)
+      {
+        document.getElementById("wd").innerHTML = gogetwork;
+      }
+      else
+      {
+        document.getElementById("wd").innerHTML = sleep;
+
+      }
+
+    }
+  }
+
+  if(dotw == "Sunday")
+  {
+    if(poa == 'P')
+    {
+      if(hour ==12)
+      {
+        document.getElementById("wd").innerHTML = gogetwork;
+      }
+      else if(hour == 10)
+      {
+        document.getElementById("wd").innerHTML = leavework;
+      }
+      else if(hour ==11)
+      {
+        document.getElementById("wd").innerHTML = reg2;
+      }
+      else if(hour ==5)
+      {
+        document.getElementById("wd").innerHTML = workbreak;
+      }
+
+      else
+      {
+        document.getElementById("wd").innerHTML = work;
+      }
+
+    }
+    else if(poa == 'A')
+    {
+      if(hour == 12 || hour == 1 || hour == 2)
+      {
+        document.getElementById("wd").innerHTML = sleepwgames;
+      }
+      else if(hour==11)
+      {
+        document.getElementById("wd").innerHTML = gogetwork;
+      }
+      else
+      {
+        document.getElementById("wd").innerHTML = sleep;
+
+      }
 
     }
   }
@@ -52,17 +288,7 @@ document.getElementById("fjs").onclick = function()
 
 
 
-  if(hour >=12 && hour <=2 && poa==a && dotw == "Monday")
-  {
-    document.getElementById("wd").innerHTML = sleepwgames;
-  }
-  
-
-
-  if(time.charAt(0) == 11 && dotw == Tuesday)
-  {
-    document.getElementById("wd").innerHTML = gogetwork;
-  }
+ 
   
 
 

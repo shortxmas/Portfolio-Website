@@ -233,6 +233,58 @@ html{
   font-weight: 300;
 }
 
+
+
+.wdbutton 
+{
+  border-radius: 25px;
+  background: #608a6f;
+  padding: 20px;
+  width: 750px;
+  height: 35px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .7cm;
+  text-decoration: none;
+  cursor: pointer;
+  
+  
+}
+
+#wdbuttontext
+{
+  text-decoration: none;
+  margin-top: 0%;
+  color: mintcream;
+  
+  
+  
+}
+
+#test
+{
+  cursor: pointer;
+}
+
+#wdinfo
+{
+  text-align: center;
+  font-family:'Montserrat', sans-serif ;
+  font-size: .4cm;
+  margin-top: -.5%;
+}
+
+#wdcalc
+{
+  margin-top: 2%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .6cm;
+  text-align: center;
+  
+}
+
  
 
  

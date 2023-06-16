@@ -22,7 +22,7 @@ document.getElementById("fjs").onclick = function()
   let work = "I am most likely working right now!"
   let leavework = "I am most likely leaving work or getting ready to leave work!"
   let reg = "I am most likely playing video games, programming or hanging out with friends!"
-  let reg2 = "I am most likely playing video games right now!"
+  let reg2 = "I am most likely playing video games or programming right now!"
   let workbreak = "I am most likely on work break right now!"
   
   console.log(time.charAt(0))
@@ -37,6 +37,10 @@ document.getElementById("fjs").onclick = function()
       if(hour ==12)
       {
         document.getElementById("wd").innerHTML = sleep;
+      }
+      else if(hour=9 || hour==10 || hour==11)
+      {
+        document.getElementById("wd").innerHTML = reg2;
       }
       else
       {
@@ -113,6 +117,10 @@ document.getElementById("fjs").onclick = function()
       {
         document.getElementById("wd").innerHTML = sleep;
       }
+      else if(hour=9 || hour==10 || hour==11)
+      {
+        document.getElementById("wd").innerHTML = reg2;
+      }
       else
       {
         document.getElementById("wd").innerHTML = reg;
@@ -143,6 +151,10 @@ document.getElementById("fjs").onclick = function()
       {
         document.getElementById("wd").innerHTML = sleep;
       }
+      else if(hour=9 || hour==10 || hour==11)
+      {
+        document.getElementById("wd").innerHTML = reg2;
+      }
       else
       {
         document.getElementById("wd").innerHTML = reg;
@@ -171,6 +183,10 @@ document.getElementById("fjs").onclick = function()
       if(hour ==12)
       {
         document.getElementById("wd").innerHTML = sleep;
+      }
+      else if(hour=9 || hour==10 || hour==11)
+      {
+        document.getElementById("wd").innerHTML = reg2;
       }
       else
       {

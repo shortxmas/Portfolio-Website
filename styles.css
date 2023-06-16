@@ -204,6 +204,35 @@ html{
   margin-left: -7%;
  }
 
+ .aboutme {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#aboutmetit
+{
+ font-size: 1.7cm; 
+ margin-top: -4%;
+}
+
+#aboutmep1
+{
+  font-weight: 300;
+}
+#aboutmep2
+{
+  font-weight: 300;
+}
+
  
 
  

@@ -1,0 +1,50 @@
+#main
+{
+  font-family: 'Montserrat', sans-serif;
+  
+  
+  color: #608a6f;
+  text-align: center;
+}
+
+#top
+{
+  font-weight: 700;
+  font-size: 1.2cm;
+}
+#middle
+{
+  font-weight: 300;
+  font-size: .7cm;
+}
+#button
+{
+  
+  background-color: #608a6f;
+  border-radius: 25px;
+  width: 300px;
+  height: 38px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: mintcream;
+  margin-bottom: 28%;
+  
+  
+  
+  
+
+}
+
+#buttontext
+{
+  font-size: .7cm;
+  font-weight: 400;
+  
+  
+  
+  
+}
+
+
+

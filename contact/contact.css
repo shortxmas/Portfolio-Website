@@ -34,12 +34,13 @@
   font-size: .5cm;
   text-align: left;
   color: mintcream;
+  font-weight: 700;
 }
 .inputs
 {
 
   font-size: .5cm;
-  font-weight: 100;
+  
   color: mintcream;
   margin-bottom: 2%;
   margin-left: 2%;
@@ -61,4 +62,57 @@
   width: 600px;
   height: 2px;
   background-color: mintcream;
+}
+
+#message
+{
+  margin-top: 2%;
+  resize: none;
+  
+
+}
+
+.typed
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+::placeholder
+{
+  color: lightgray
+}
+#submit
+{
+  border-radius: 25px;
+  background: mintcream;
+  padding: 20px;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  
+  margin-left: 34%;
+  margin-top: 2%;
+  font-weight: 700;
+  
+
+}
+#submitbutton
+{
+  color: #608a6f;
+  background-color: mintcream;
+  outline: none;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .7cm;
+  
+  
+  padding: 18px 35px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-left: -20%;
+  margin-top: -40%;
+
+  
+  
 }

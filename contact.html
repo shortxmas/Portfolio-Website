@@ -34,29 +34,37 @@
 
   
 
-  <form id="formt"  action="back.js">
+  <div id="formt"  >
     
     <div id="form">
       <h1 >
         Contact
       </h1>
-      <div id="formfill">
+      <div id="formfill" >
+        <form action="https://formsubmit.co/ls2skates@gmail.com" method="POST" > 
         <text class="labels"> Full Name</text> <br>
-        <input class="inputs"  type="text" size="55" maxlength="35" minlength="2" required>
+        <input class="inputs typed"  type="text" name="name" size="55" maxlength="35" minlength="2" placeholder="Billy McManus" required>
         <div class="underline"></div>
         <br>
         <text class="labels"> Email</text> <br>
-        <input class="inputs"  type="email" size="55" maxlength="100" minlength="2" required>
+        <input class="inputs typed"  type="email" name="email" size="55" maxlength="100" minlength="2 "placeholder="bmcmanster@hotmail.com"  required>
         <div class="underline"></div>
         <br>
         <text class="labels"> Subject</text> <br>
-          <input class="inputs"  type="text" size="55" maxlength="100" minlength="2" required>
-          <div class="underline"></div>
+        <input class="inputs typed"  type="text" name="subject" size="55" maxlength="100" minlength="2" placeholder="Collaboration idea" required>
+        <div class="underline"></div>
         <br>
         <text class="labels"> Message</text> <br>
-          <input class="inputs"  type="text" size="55"  maxlength="100" minlength="2"  width="500">
-          <div class="underline"></div>
+        <textarea class="inputs typed" id="message" name="messaged" cols="52" rows="3" maxlength="500" minlength="2" placeholder="I got a sick idea for a website bro! Hit my line!" required  ></textarea>
+        <div class="underline"></div>
         <br>
+        <input type="hidden" name="_next" value="https://leightonmiguel.com/contact/contactsuccess.html">
+        <input type="hidden" name="_captcha" value="false">
+        <div id="submit">
+          <button id="submitbutton"type="submit">Send</button>
+        </div>
+        </form>
+        
 
 
       </div>
@@ -65,7 +73,7 @@
     </div>
 
 
-  </form>
+  </div>
 
   
 

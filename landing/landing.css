@@ -1,0 +1,124 @@
+#imgme
+{
+  width: 60%;
+  height: 60%;
+  margin-left: 0%;
+  max-width: 100%
+  
+}
+#landname
+ {
+  font-size: 2cm;
+  color: #608a6f;
+  font-weight: 3000;
+  margin-top: -2%;
+  margin-left: -11%;
+  
+  
+ }
+
+ #landocc
+ {
+  margin-bottom: 10%;
+  margin-top: -5%;
+  margin-left: -9%;
+  font-weight: 500;
+  font-size: .4cm
+ }
+ #aboutmetit
+{
+ font-size: 1.7cm; 
+ margin-top: -4%;
+}
+
+#aboutmep1
+{
+  font-weight: 300;
+}
+#aboutmep2
+{
+  font-weight: 300;
+}
+.aboutme {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.image {
+  flex-basis: 40%
+}
+
+.text {
+  
+  font-family: 'Montserrat', sans-serif;
+  margin-left: -12%;
+}
+.container 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.centered 
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wdbutton 
+{
+  border-radius: 25px;
+  background: #608a6f;
+  padding: 20px;
+  width: 750px;
+  height: 35px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .7cm;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+#wdbuttontext
+{
+  text-decoration: none;
+  margin-top: 0%;
+  color: mintcream;
+  
+  
+  
+}
+
+#test
+{
+  cursor: pointer;
+}
+
+#wdinfo
+{
+  text-align: center;
+  font-family:'Montserrat', sans-serif ;
+  font-size: .4cm;
+  margin-top: -.5%;
+}
+
+#wdcalc
+{
+  margin-top: 2%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .6cm;
+  text-align: center;
+  
+}
+#button
+ {
+  margin-left: -11%;
+ }
+ 

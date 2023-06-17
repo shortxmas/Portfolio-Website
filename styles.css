@@ -4,38 +4,27 @@
   margin-left: 3%;
   font-size: .8cm;
   color:#608a6f
-  
-  
 }
 
 #headside
 {
   
-  
   margin-left: .1%;
   font-size: .5cm;
   color: black;
   font-weight: 600;
-  
-  
-  
 }
 
 #header
 {
-  
   font-family: 'Montserrat', sans-serif;
   background-color: mintcream;
-
 }
-
 
 #dir
 {
-  
   margin-right: 3%;
   float:right
-  
 }
 
 .dire
@@ -51,23 +40,21 @@
 {
   margin-top: 1.5%;
   margin-bottom: 7%;
-  
 }
 
 #footerline
 {
   margin-top: 12%;
   margin-bottom: 2.5%;
-  
-  
 }
 
-
-
-body{
+body
+{
   background-color: white;
 }
-html{
+
+html
+{
   background-color:mintcream;
 }
 
@@ -76,20 +63,12 @@ html{
   background-color:mintcream
 }
 
-
-
-
-
-
-
 .alignleft 
 {
   text-align: left;
   float: left;
   margin-left: 5%;
 }
-
-
 
 #aligncentert
 {
@@ -143,199 +122,95 @@ html{
   color: mintcream;
 }
 
-#imgme
-{
-  width: 60%;
-  height: 60%;
-  margin-left: 0%;
-  max-width: 100%
-  
-}
 
 
 
 
 
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
 
 
 
-.image {
-  flex-basis: 40%
-}
 
-.text {
-  
-  font-family: 'Montserrat', sans-serif;
-  margin-left: -12%;
-}
+
+
 
  
 
- #landname
- {
-  font-size: 2cm;
-  color: #608a6f;
-  font-weight: 3000;
-  margin-top: -2%;
-  margin-left: -11%;
-  
-  
- }
+ 
 
- #landocc
- {
-  margin-bottom: 10%;
-  margin-top: -5%;
-  margin-left: -9%;
-  font-weight: 500;
-  font-size: .4cm
-  
-  
-  
-  
- }
- #button
- {
-  margin-left: -11%;
- }
 
- .aboutme {
-  position: relative;
+ 
+
+
+
+
+
+#formt
+{
+  font-family:'Montserrat', sans-serif  ;
   text-align: center;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
+  color: mintcream;
 }
 
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#aboutmetit
-{
- font-size: 1.7cm; 
- margin-top: -4%;
-}
-
-#aboutmep1
-{
-  font-weight: 300;
-}
-#aboutmep2
-{
-  font-weight: 300;
-}
-
-
-
-.wdbutton 
+#form
 {
   border-radius: 25px;
   background: #608a6f;
   padding: 20px;
   width: 750px;
-  height: 35px;
-  text-align: center;
+  height: 750px;
+  
   margin-right: auto;
   margin-left: auto;
   font-family: 'Montserrat', sans-serif;
   font-size: .7cm;
   text-decoration: none;
-  cursor: pointer;
-  
   
 }
 
-#wdbuttontext
+
+#formfill
 {
-  text-decoration: none;
-  margin-top: 0%;
+  text-align: left;
+  margin-bottom: 50%;
+  margin-left: 10%;
+}
+
+.labels
+{
+  font-size: .5cm;
+  text-align: left;
   color: mintcream;
-  
-  
-  
 }
-
-#test
+.inputs
 {
-  cursor: pointer;
-}
 
-#wdinfo
-{
-  text-align: center;
-  font-family:'Montserrat', sans-serif ;
-  font-size: .4cm;
-  margin-top: -.5%;
-}
-
-#wdcalc
-{
-  margin-top: 2%;
-  font-family: 'Montserrat', sans-serif;
-  font-size: .6cm;
-  text-align: center;
+  font-size: .5cm;
+  font-weight: 100;
+  color: mintcream;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  size: 5cm;
+  background-color:#608a6f ;
+  
+  
+  
+  border: 0;
+  
+  outline:0
+  
+  
   
 }
 
-#contactemail
+.underline
 {
-  
-  margin-left: 25%;
-  
-
-}
-
-#contactphone
-{
-  margin-left: auto;
-  
- 
+  width: 600px;
+  height: 2px;
+  background-color: mintcream;
 }
 
 
-/* Bottom left text */
-.bottom-left {
-  position: absolute;
-  bottom: 8px;
-  left: 16px;
-}
-
-/* Top left text */
-.top-left {
-  position: absolute;
-  top: 8px;
-  left: 16px;
-}
-
-/* Top right text */
-.top-right {
-  position: absolute;
-  top: 8px;
-  right: 16px;
-}
-
-/* Bottom right text */
-.bottom-right {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-}
-
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 
 

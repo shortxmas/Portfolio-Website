@@ -1,0 +1,64 @@
+#formt
+{
+  font-family:'Montserrat', sans-serif  ;
+  text-align: center;
+  color: mintcream;
+}
+
+#form
+{
+  border-radius: 25px;
+  background: #608a6f;
+  padding: 20px;
+  width: 750px;
+  height: 750px;
+  
+  margin-right: auto;
+  margin-left: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .7cm;
+  text-decoration: none;
+  
+}
+
+
+#formfill
+{
+  text-align: left;
+  margin-bottom: 50%;
+  margin-left: 10%;
+}
+
+.labels
+{
+  font-size: .5cm;
+  text-align: left;
+  color: mintcream;
+}
+.inputs
+{
+
+  font-size: .5cm;
+  font-weight: 100;
+  color: mintcream;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  size: 5cm;
+  background-color:#608a6f ;
+  
+  
+  
+  border: 0;
+  
+  outline:0
+  
+  
+  
+}
+
+.underline
+{
+  width: 600px;
+  height: 2px;
+  background-color: mintcream;
+}

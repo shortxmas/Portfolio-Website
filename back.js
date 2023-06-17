@@ -26,7 +26,7 @@ document.getElementById("fjs").onclick = function()
   let workbreak = "I am most likely on work break right now!"
   
   console.log(time.charAt(0))
-  let hour = parseInt(time.charAt(0))
+  let hour = parseInt(time.charAt(0)+ time.charAt(1))
   console.log(time.charAt(time.length-2))
   let poa = time.charAt(time.length-2)
 
@@ -196,9 +196,21 @@ document.getElementById("fjs").onclick = function()
     }
     else if(poa == 'A')
     {
-      if(hour == 12 || hour == 1 || hour == 2)
+      if(hour == 12)
       {
         document.getElementById("wd").innerHTML = sleepwgames;
+      }
+      else if(hour == 1)
+      {
+        document.getElementById("wd").innerHTML = sleepwgames;
+      }
+      else if(hour == 2)
+      {
+        document.getElementById("wd").innerHTML = sleepwgames;
+      }
+      else if(hour ==11)
+      {
+        document.getElementById("wd").innerHTML = sleep;
       }
       else
       {

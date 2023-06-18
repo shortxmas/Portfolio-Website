@@ -10,7 +10,19 @@ document.getElementById("fjs").onclick = function()
 
   let hst2 = new Date(hst);
   const dayarray = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-  let dotw = dayarray[hst2.getDay()-1];
+  let dotw;
+  if(hst2.getDay() == 0)
+  {
+    dotw="Sunday"
+
+  }
+  else
+  {
+    dotw = dayarray[hst2.getDay()-1];
+
+  }
+
+  
 
   let full = "It is currently " + time + " on a " + dotw + " in Hawaii!"
 

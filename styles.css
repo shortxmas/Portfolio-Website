@@ -58,66 +58,50 @@ html
   background-color:mintcream;
 }
 
-#footer
-{
-  background-color:mintcream
-}
 
-.alignleft 
+
+#fall
 {
   text-align: left;
-  float: left;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 2%;
+}
+
+#fphone
+{
   margin-left: 5%;
-}
-
-#aligncentert
-{
-  text-align: left;
-  margin-left: 31%;
- 
-}
-#aligncenterb
-{
-  text-align: left;
-  margin-left: 31%;
+  float:left
   
 }
 
-.alignright 
+#femail
 {
-  text-align: left;
-  float: right;
-  margin-right: 5%;
- 
- 
+  margin-left: 18%; 
+  float: left;
 }
 
-.titles
+#fwebinfo
+{
+  font-size: .4cm;
+  margin-right: 5%;
+  float: right;
+}
+
+#fdiscord
+{
+  margin-right: 18%;
+  float: right;
+  margin-bottom: 2.5%;
+}
+
+.ftop
 {
   font-weight: 700;
   font-size: .55cm;
   color: #608a6f;
 }
 
-.all
+#testsss
 {
-  font-family: 'Montserrat', sans-serif;
-
-}
-
-.webinfo
-{
-  font-size: .35cm;
-
-}
-
-.bottom
-{
-  margin-bottom: 2.5%;
-
-}
-
-#hide
-{
-  color: mintcream;
+  margin-bottom: 2%;
 }

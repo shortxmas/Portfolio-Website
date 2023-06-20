@@ -1,0 +1,38 @@
+#fall
+{
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#fphone
+{
+  margin-left: 5%;
+  float:left
+  
+}
+
+#femail
+{
+  margin-left: 18%; 
+  float: left;
+}
+
+#fwebinfo
+{
+  font-size: .4cm;
+  margin-right: 5%;
+  float: right;
+}
+
+#fdiscord
+{
+  margin-right: 18%;
+  float: right;
+}
+
+.ftop
+{
+  font-weight: 700;
+  font-size: .55cm;
+  color: #608a6f;
+}

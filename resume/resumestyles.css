@@ -1,25 +1,88 @@
+#right
+{
+  /* background-color: red; */
+  width: 20%;
+  height: 100%;
+  float: right;
+  margin-right: 10%;
+  
+}
+
+#left
+{
+ 
+  margin-left: 17%;
+  
+  /* background-color: blue; */
+  width: 43%;
+  height: 100%;
+  float: left;
+ 
+}
+
+
+
 #title
 {
+  background-color: #608a6f;
   
-  font-family: 'Montserrat', sans-serif;
   text-align: left;
-  margin-left: 10%;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 16%;
+  width: 200px;
+  height: 58px;
+  border-radius: 15px;
+  margin-bottom: 1%;
+  
+  
+  
   
 }
 
 
 #titlename
 {
-  color: #608a6f;
+  color: mintcream;
+  font-size: 1.15cm;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
-#titleinfo
+.dates
 {
   color: grey;
-  margin-top: -1%;
-  font-weight: 400;
-  font-size: .5cm;
-  margin-left: 2%;
 }
 
+
+
+#rall
+{
+  margin-bottom: 95%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.rightps
+{
+  line-height: 2;
+}
+
+.leftps
+{
+  
+  margin-left: 5%;
+}
+.leftps2
+{
+  line-height: 2;
+}
+#lbody
+{
+  margin-left: 5%;
+}
+.rtitles
+{
+  color: #608a6f;
+  text-decoration: underline;
+}
 

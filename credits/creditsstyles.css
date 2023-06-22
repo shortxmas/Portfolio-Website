@@ -1,0 +1,76 @@
+#ctitle
+{
+  margin-bottom: 5%;
+  margin-left: 20%;
+  font-family: 'Montserrat', sans-serif;
+  color: #608a6f;
+  background-color: #608a6f;
+  color: mintcream;
+  border-radius: 15px;
+  width: 177px;
+  height: 58px;
+  
+
+}
+
+#cpro
+{
+  margin-left: 5%;
+  font-size: 1.15cm;
+}
+.p
+{
+  
+  height: 50%;
+  width: 100%;
+  /* background-color: brown; */
+  margin-bottom: 15%;
+}
+
+.pleft
+{
+  margin-top: -2%;
+  float: left;
+  width: 50%;
+}
+#cbody
+{
+  
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 18%;
+  
+}
+
+.ppar
+{
+  line-height: 2;
+}
+
+.ptitles
+{
+  color: #608a6f;
+  text-decoration: underline;
+}
+.pics
+{
+  border: 3px solid #608a6f;
+}
+#gp
+{
+  margin-left: 5.33%;
+}
+#vs
+{
+  margin-left: 7.5%;
+}
+#cvid
+{
+  margin-top: 15%;
+  text-align: center;
+  font-size: .5cm;
+  
+}

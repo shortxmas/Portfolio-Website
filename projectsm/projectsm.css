@@ -1,0 +1,81 @@
+
+#pbody
+{
+  
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 23%;
+  
+}
+#ptitle
+{
+  margin-bottom: 5%;
+  margin-left: 20%;
+  font-family: 'Montserrat', sans-serif;
+  color: #608a6f;
+  background-color: #608a6f;
+  color: mintcream;
+  border-radius: 15px;
+  width: 200px;
+  height: 58px;
+  
+
+}
+#ppro
+{
+  margin-left: 5%;
+  font-size: 1.15cm;
+}
+
+
+
+.ppar
+{
+  line-height: 2;
+}
+.p
+{
+  
+  height: 50%;
+  width: 100%;
+  /* background-color: brown; */
+  margin-bottom: 15%;
+}
+.pleft
+{
+  margin-top: -2%;
+  float: left;
+  width: 50%;
+}
+
+#lbpic
+{
+  margin-left: 9.75%;
+
+}
+
+#ppic
+{
+  margin-left: 9.454%;
+  width: 40%;
+  
+  
+}
+.pics
+{
+  border: 3px solid #608a6f;
+}
+.ptitles
+{
+  color: #608a6f;
+  text-decoration: underline;
+}
+.pdates
+{
+  color: gray;
+}
+
+

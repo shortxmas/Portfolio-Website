@@ -64,6 +64,11 @@
   
   
 }
+#cgpic
+{
+  width: 40%;
+  margin-left: 9%;
+}
 .pics
 {
   border: 3px solid #608a6f;

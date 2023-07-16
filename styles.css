@@ -105,3 +105,46 @@ html
 {
   margin-bottom: 2%;
 }
+
+.hidebig
+{
+  display: none;
+}
+
+@media screen and (max-width:1430px)
+{
+  .hidesmall
+  {
+    display: none;
+  }
+  .hidebig
+  {
+    display: block;
+    margin-top: 50px;
+  }
+  #message
+  {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 350px;
+  }
+  #logobox
+  {
+    margin-top: 40px;
+  }
+  
+
+  #logo
+  {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
